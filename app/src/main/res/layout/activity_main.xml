@@ -10,7 +10,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="@string/add"
         android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -18,9 +18,12 @@
     <EditText
         android:id="@+id/addTaskField"
         android:layout_width="0dp"
-        android:layout_margin="10dp"
         android:layout_height="wrap_content"
-        android:hint="Add a task"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:hint="@string/add_a_task"
+        android:minHeight="48dp"
+        android:textColorHint="#78909C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent" />
