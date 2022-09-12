@@ -2,19 +2,19 @@
 
 # Project 1 - SimpleToDo
 
-**Name of your app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**SimpleToDo** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-Submitted by:
+Submitted by: Brian Balthazar
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [] User can **view a list of todo items**
-* [] User can **successfully add and remove items** from the todo list
-* [] User's **list of items persisted** upon modification and and retrieved properly on app restart
+* [x] User can **view a list of todo items**
+* [x] User can **successfully add and remove items** from the todo list
+* [x] User's **list of items persisted** upon modification and and retrieved properly on app restart
 
 The following **optional** features are implemented:
 
@@ -22,7 +22,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality! 
+* Spacing is improved
 * [] Changing the background color
 * [] changing the style of the icon
 * [] styling the ActionBar
@@ -33,17 +34,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' />
+<img src='https://github.com/eleferrets/SimpleToDo/blob/master/todo.gif' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+The import issue for commons library, but that was resolved with a rebuild of gradle
 
 ## License
 
-    Copyright [2022] [name of copyright owner]
+    Copyright [2022] [Brian Balthazar]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
